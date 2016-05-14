@@ -1,1 +1,1 @@
-
+$('h1').lettering('words');

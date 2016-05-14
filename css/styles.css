@@ -36,9 +36,7 @@ body {
     margin: auto;
   
 }
-h1 {
-    
-}
+
 
 .tiff {
     border-radius: 100%;
@@ -54,6 +52,13 @@ h1 {
 .bottom_right{
     display: flex;
     
+}
+
+.word1, .word2 {
+  color: white;
+  font-size: 4em;
+  transform: rotate(-90deg);
+  display: inline-flex;
 }
 /********************
 MEDIA QUERIES
