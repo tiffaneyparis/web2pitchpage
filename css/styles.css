@@ -8,11 +8,12 @@ YOUR STYLES
 .main_contain {
     display: flex;
     align-content: center;
+   
 }
 
 .left_contain {
-    display: flex;
-    flex-direction: column;
+   
+    
     flex: 1;
    
     
@@ -22,18 +23,19 @@ body {
     background: cornsilk;
 }
 .ferris {
-    width: 500px;
-    height: auto;
+    max-width: 100%;
+    max-height: none;
+  
 
     
    
 }
 .right_contain {
-    display: flex;
+    display: ;
     flex: 1;
-    flex-direction: column;
-    padding: 100px 50px 100px 100px;
-    margin: auto;
+    
+    padding: 10px 50px 10px 10px;
+   
   
 }
 
@@ -42,6 +44,7 @@ body {
     border-radius: 100%;
     width: 200px;
     height: 200px;
+    
     
 }
 
