@@ -1,83 +1,99 @@
 /********************
 YOUR STYLES
 *******************/
-* {
-    box-sizing: border-box;
-}
-
-.main_contain {
-    display: flex;
-    align-content: center;
-   
-}
-
-.left_contain {
-   
-    
-    flex: 1;
-   
-    
-}
+* {margin: 0; padding: 0; box-sizing: border-box;}
 
 body {
-    background: cornsilk;
+  background-color: floralwhite;
+  font-family: 'Open Sans';
+  font-size: 19px;
 }
-.ferris {
-    max-width: 100%;
-    max-height: none;
+header {
+  width: 100%;
+  padding: 0;
+  background-color: floralwhite;
+  text-align: center;
+}
+header h1 {
+  font-family: 'Pacifico';
+  color: #333;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 1); 
+}
+header span {
+  font-family: 'Open Sans';
+  color: white;
+}
+.section-wrapper {
+  width: 960px;
+  margin: 0 auto;
+  padding: 10px 0px;
   
+}
+.col-3 {
+ 
+  width: 32%;
+  height: auto;
+  float: left;
+  margin-right: 1.9%;
+  text-align: center;
+}
+.col-header {
+  width: 100%;
+  background-color: burlywood;
+  position: relative; 
+  padding: 20px;
+  font-family: 'Rokkitt';
+  font-size: 24px;
+  color: #fff;
+}
+.col-content1, .col-content2, .col-content3 {
+  height: 400px;
+  padding: 20px;
+  color: #333;
+}
 
-    
+.col-content1 {
+    background-image: url("http://tiffaneyparis.github.io/web2pitchpage/img/barrel.JPG");
+   
+   
    
 }
-.right_contain {
-    display: ;
-    flex: 1;
-    
-    padding: 10px 50px 10px 10px;
-   
-  
+
+.col-content2 {
+    background-image: url("http://tiffaneyparis.github.io/web2pitchpage/img/circle.JPG");
+    height: 400px;
 }
 
+.col-content3 {
+    background-image: url("http://tiffaneyparis.github.io/web2pitchpage/img/rust.JPG");
+}
+  
+.last {
+  margin-right: 0;
+}
 
 .tiff {
-    border-radius: 100%;
     width: 200px;
     height: 200px;
-    
-    
+    border-radius: 100%;
+   
 }
 
-.top_right { 
-    display: flex;
-    
-}
-.bottom_right{
-    display: flex;
-    
-}
 
-.word1, .word2 {
-  color: white;
-  font-size: 4em;
-  transform: rotate(-90deg);
-  display: inline-flex;
-}
+
+
 /********************
 MEDIA QUERIES
 *******************/
-
-/* Desktop */
-@media (min-width: 1200px) {
-
+@media only screen and (max-width: 960px) {
+  .section-wrapper {
+    width: 96%;
+  }
 }
 
-/* Tablet */
-@media (min-width: 768px) {
-
-}
-
-/* Mobile */
-@media (min-width: 480px) {
-
+@media only screen and (max-width: 480px) {
+  .col-3 {
+    width: 100%;
+     
+    margin: 10px 0px;
 }
