@@ -5,15 +5,32 @@ YOUR STYLES
     box-sizing: border-box;
 }
 
+.main_contain {
+    display: flex;
+    align-content: center;
+}
+
 .left_contain {
     display: flex;
-    width: auto;
-     height: auto;
+    flex-direction: column;
+    flex: 1;
+   
+    
 }
 
 .ferris {
-   width: 100%;
-       height: auto;
+    width: 500px;
+    height: auto;
+    
+   
+    
+   
+}
+.right_contain {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+  
 }
 
 /********************
