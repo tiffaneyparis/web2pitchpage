@@ -5,9 +5,16 @@ YOUR STYLES
     box-sizing: border-box;
 }
 
+.left_contain {
+    display: flex;
+    width: auto;
+     height: auto;
+}
 
-
-
+.ferris {
+   width: 100%;
+       height: auto;
+}
 
 /********************
 MEDIA QUERIES
