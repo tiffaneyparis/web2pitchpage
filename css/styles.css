@@ -11,12 +11,12 @@ body {
 header {
   width: 100%;
   padding: 0;
-  background-color: floralwhite;
+  background-color: maroon;
   text-align: center;
 }
 header h1 {
   font-family: 'Pacifico';
-  color: #333;
+  color: white;
   text-shadow: 0px 1px 0px rgba(255, 255, 255, 1); 
 }
 header span {
@@ -30,7 +30,6 @@ header span {
   
 }
 .col-3 {
- 
   width: 32%;
   height: auto;
   float: left;
@@ -49,7 +48,7 @@ header span {
 .col-content1, .col-content2, .col-content3 {
   height: 400px;
   padding: 20px;
-  color: #333;
+  color: white;
 }
 
 .col-content1 {
