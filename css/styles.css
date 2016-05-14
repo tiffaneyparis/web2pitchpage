@@ -18,11 +18,13 @@ YOUR STYLES
     
 }
 
+body {
+    background: cornsilk;
+}
 .ferris {
     width: 500px;
     height: auto;
-    
-   
+
     
    
 }
@@ -30,9 +32,29 @@ YOUR STYLES
     display: flex;
     flex: 1;
     flex-direction: column;
+    padding: 100px 50px 100px 100px;
+    margin: auto;
   
 }
+h1 {
+    
+}
 
+.tiff {
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    
+}
+
+.top_right { 
+    display: flex;
+    
+}
+.bottom_right{
+    display: flex;
+    
+}
 /********************
 MEDIA QUERIES
 *******************/
