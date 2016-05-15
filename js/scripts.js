@@ -5,3 +5,28 @@ $('article').readmore({
   
 });
 
+$('#tiff').rotate({
+  bind:
+  {
+    mouseover : function() {
+    $(this).rotate({animateTo:360})
+  },
+  mouseout : function() {
+    $(this).rotate({animateTo:0})
+    }
+  }
+
+});
+
+$('.icon').rotate({
+  bind:
+  {
+    mouseover : function() {
+    $(this).rotate({animateTo:360})
+  },
+  mouseout : function() {
+    $(this).rotate({animateTo:0})
+    }
+  }
+
+});
