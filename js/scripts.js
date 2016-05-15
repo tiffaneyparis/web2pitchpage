@@ -1,5 +1,7 @@
 $('article').readmore({
-  speed: 75,
-  lessLink: '<a href="#">Read less</a>',
-    moreLink: '<a href="#">Read more</a>'
+  speed: 50,
+  lessLink: '<a href="#">Done</a>',
+  moreLink: '<a href="#">Read On</a>',
+  
 });
+

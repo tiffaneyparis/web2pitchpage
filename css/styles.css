@@ -1,34 +1,35 @@
-/********************
-YOUR STYLES
-*******************/
 * {margin: 0; padding: 0; box-sizing: border-box;}
 
 body {
-  background-color: floralwhite;
-  font-family: 'Open Sans';
-  font-size: 19px;
+  background-color: #C46A1E;
 }
+
 header {
   width: 100%;
-  padding: 0;
-  background-color: maroon;
+  padding: 10px 0 5px 0;
+  background-color: #702001;
   text-align: center;
+    background-image: url('http://tiffaneyparis.github.io/web2pitchpage/img/iron_texture.jpg')
 }
+
 header h1 {
-  font-family: 'Pacifico';
-  color: white;
-  text-shadow: 0px 1px 0px rgba(255, 255, 255, 1); 
+    font-size: 4.5em;
+    font-family: 'Dancing Script', cursive;
+    color: floralwhite;
+    margin: 0;
 }
+
 header span {
-  font-family: 'Open Sans';
+  font-family: 'Roboto', sans-serif;
   color: white;
 }
+
 .section-wrapper {
   width: 960px;
   margin: 0 auto;
   padding: 10px 0px;
-  
 }
+
 .col-3 {
   width: 32%;
   height: auto;
@@ -36,63 +37,78 @@ header span {
   margin-right: 1.9%;
   text-align: center;
 }
+
 .col-header {
   width: 100%;
-  background-color: burlywood;
+  background-color: #DDAA56;
   position: relative; 
-  padding: 20px;
-  font-family: 'Rokkitt';
-  font-size: 24px;
+  padding: 5px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px;
   color: #fff;
 }
+
 .col-content1, .col-content2, .col-content3 {
-  height: 400px;
+  height: 500px;
   padding: 20px;
   color: white;
+  font-family: 'Roboto Condensed', sans-serif; 
+}
+
+a {
+    text-decoration: none;
+    color: burlywood; 
+}
+
+a:hover {
+    color: maroon;
 }
 
 .col-content1 {
-    background-image: url("http://tiffaneyparis.github.io/web2pitchpage/img/barrel.JPG");
-   
-   
-   
+    background-image: url("http://tiffaneyparis.github.io/web2pitchpage/img/rust.JPG");
 }
 
 .col-content2 {
-    background-image: url("http://tiffaneyparis.github.io/web2pitchpage/img/circle.JPG");
-    height: 400px;
+    background-image: url("http://tiffaneyparis.github.io/web2pitchpage/img/barrel.JPG");
 }
 
 .col-content3 {
-    background-image: url("http://tiffaneyparis.github.io/web2pitchpage/img/rust.JPG");
+    background-image: url("http://tiffaneyparis.github.io/web2pitchpage/img/circle.JPG");
 }
   
 .last {
   margin-right: 0;
 }
 
-.tiff {
+#tiff {
     width: 200px;
     height: 200px;
     border-radius: 100%;
-   
+    border: floralwhite 8px solid;
 }
 
+article {
+    max-height: 100%;
+    overflow: hidden;
+}
 
-
+.icon {
+    height: 22px;
+    weight: 22px;
+    margin: 0 5px 0 5px;   
+}
 
 /********************
 MEDIA QUERIES
 *******************/
 @media only screen and (max-width: 960px) {
-  .section-wrapper {
-    width: 96%;
-  }
+    .section-wrapper {
+      width: 96%;
+}
 }
 
 @media only screen and (max-width: 480px) {
   .col-3 {
     width: 100%;
-     
     margin: 10px 0px;
 }
